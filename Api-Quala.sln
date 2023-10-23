@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34202.233
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Api-Quala", "Api-Quala\Api-Quala.csproj", "{6FBDA80B-5417-43A8-97E3-E25BDB0F637B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6FBDA80B-5417-43A8-97E3-E25BDB0F637B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6FBDA80B-5417-43A8-97E3-E25BDB0F637B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6FBDA80B-5417-43A8-97E3-E25BDB0F637B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6FBDA80B-5417-43A8-97E3-E25BDB0F637B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3938D15A-5CA5-4D33-B15A-C5901F4ADB15}
+	EndGlobalSection
+EndGlobal
