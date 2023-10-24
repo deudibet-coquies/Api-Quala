@@ -19,9 +19,16 @@ namespace Api_Quala.Controllers
         // GET: SucursalController
         [HttpGet]
         [Route("Lista-sucursales")]
-        public IEnumerable<SucursalModel> GetValues()
+        public IEnumerable<SucursalModel> GetValuesSucursales()
         {
             return db.sucursalModels.ToList();
+        }
+
+        [HttpGet]
+        [Route("Lista-monedas")]
+        public IEnumerable<MonedaModel> GetValuesMonedas()
+        {
+            return db.monedaModels.ToList();
         }
 
         // GET: SucursalController/Details/5

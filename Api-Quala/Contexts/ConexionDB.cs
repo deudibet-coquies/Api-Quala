@@ -13,5 +13,7 @@ namespace Api_Quala.Contexts
 
         public DbSet<SucursalModel> sucursalModels { get; set; }
 
+        public DbSet<MonedaModel> monedaModels { get; set; }
+
     }
 }
